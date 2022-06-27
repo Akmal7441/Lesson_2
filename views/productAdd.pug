@@ -1,0 +1,7 @@
+extends layouts/layout
+block content 
+  h1 Add Product
+  form(action="/add/productadd" method="POST")
+      input#name(type="text" name="name")
+     
+      button Add Product

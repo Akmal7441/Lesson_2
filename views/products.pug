@@ -1,0 +1,10 @@
+extends layouts/layout
+block content 
+    h1 Products 
+    .ProductNew 
+        each product in server
+            .product
+                
+                h2= product.name
+                h6= product.id
+
